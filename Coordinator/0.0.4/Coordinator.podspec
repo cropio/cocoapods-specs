@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'Coordinator'
-  s.version          = `git describe --abbrev=0 --tags`
+  s.version          = '0.0.4'
   s.summary          = 'Library for realization MVVM-C pattern'
   s.description      = 'Library for realization MVVM + Coordinator pattern, using storyboards. Support universal app'
 
