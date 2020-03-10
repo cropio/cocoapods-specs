@@ -33,6 +33,6 @@ Pod::Spec.new do |s|
     'Sources/Classes/Interfaces/**/*.xib'
   ]
 
-  s.dependency 'AppCoordinator', '0.0.1'
+  s.dependency 'AppCoordinator', '1.0.0'
   s.dependency 'logger', '0.0.6'
 end
