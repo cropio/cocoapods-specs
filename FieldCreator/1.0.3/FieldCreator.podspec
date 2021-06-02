@@ -37,8 +37,4 @@ Pod::Spec.new do |s|
   s.dependency 'logger', '1.0.0'
   s.dependency 'Mapbox-iOS-SDK', '~> 6.3.0'
 
-  # Need for correct lint
-  s.pod_target_xcconfig = { 'ONLY_ACTIVE_ARCH' => 'YES' }
-  s.user_target_xcconfig = { 'ONLY_ACTIVE_ARCH' => 'YES' }
-
 end
