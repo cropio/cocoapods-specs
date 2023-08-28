@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "CropioGQLSchema"
-  s.version      = '1.1.3'
+  s.version      = '1.2.0'
   s.summary      = "Cropio GraphQL schema"
   s.description  = "GraphQL schema for cropio api, use GQLSchema lib"
   s.homepage     = "https://github.com/cropio/cropio-gql-schema"
